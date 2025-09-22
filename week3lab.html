@@ -1,18 +1,52 @@
 <html>
     <header>
-        <title>lol</title>
+        <title>Lab 3</title>
         <link rel="stylesheet" href="week3lab.css">
     </header>
 
     <body>
         <!-- Header -->
+        <header id="bar">
+            <h1>Rock - Paper - Scissors</h1>
+        </header>
 
         <!-- Navigation -->
 
         <!-- Main content -->
+        <div class="main-content">
+            <!-- Form -->
+            <div class="form">
+                <h2>Answer to play the game!</h2>
+                <label for="name">Game Name:</label>
+                <input type="text" id="name" placeholder="Faker" required>
+                <br>
+                <label for="choices">Choices:</label>
+                <select id="choices" name="choices">
+                    <option hidden disabled selected>--Choose one--</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Paper">Paper</option>
+                    <option value="Scissor">Scissor</option>
+                </select>
+                <br>
+                <input type="submit" value="Play" id="submit">
+            </div>
 
-        <!-- Form -->
+            <!-- SideBar -->
+            <div class="sidebar">
+                <h3><u>Game Rules</u></h3>
+                <p>You must choose rock, paper, or scissors to play the game.</p>
+                <h4><u>How to Win</u></h4>
+                <p>Rock beats Scissor, <br>
+                Scissor beat Paper, <br>
+                Paper beats Rock. <br>
+                If the same two are played, <br>
+                it results in a tie.</p>
+            </div>
+        </div>
 
         <!-- Footer -->
+        <footer id="bar">
+            <p>Thank you for playing!</p>
+        </footer>
     </body>
 </html>
