@@ -11,6 +11,29 @@ body {
     clear: both;
 }
 
+.nav {
+    background-color: rgb(96, 45, 139);
+    text-align: center;
+    margin: 5px;
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.nav li:hover {
+    background-color: rgb(242, 156, 170);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
 .main-content {
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid rgb(96, 45, 139);
