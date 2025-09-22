@@ -1,0 +1,75 @@
+body {
+    background-color: beige;
+}
+
+#bar {
+    text-align: center;
+    background-color: rgb(130, 24, 130);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    clear: both;
+}
+
+.nav {
+    background-color: rgb(96, 45, 139);
+    text-align: center;
+    margin: 5px;
+}
+
+.nav li {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+.nav li:hover {
+    background-color: rgb(242, 156, 170);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+
+.main-content {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(96, 45, 139);
+    width: 98.5%;
+    height: 40%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.form {
+    background-color: rgb(157, 79, 221);
+    color: black;
+    border: 1px solid  rgb(96, 45, 139);
+    width: 65%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+}
+
+.sidebar {
+    text-align: center;
+    background-color: violet;
+    color: black;
+    border: 1px solid  rgb(96, 45, 139);
+    float: right;
+    width: 30%;
+    margin: 3px;
+    padding: 3px;
+
+}
+
+.sidebar:hover {
+    background-color: aqua;
+}
+
+.game-result {
+    display: none;
+}
